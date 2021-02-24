@@ -1,0 +1,17 @@
+{
+  "name": "Ticket",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Ticket Getter",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://reserve.tokyodisneyresort.jp/ticket/search/",
+        "https://reserve.tokyodisneyresort.jp/fo/ticket/index.html"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
